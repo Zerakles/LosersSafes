@@ -14,4 +14,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- Bouncy Castle Library for Cryptography -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.69</version> <!-- Aktualisiere die Version auf die neueste verfügbare Version -->
+        </dependency>
+    </dependencies>
+
 </project>
